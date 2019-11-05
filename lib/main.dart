@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trampoely2/screens/cars_screen.dart';
+import 'package:trampoely2/screens/login_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CarScreen(),
+      home: LoginScreen(),
     );
   }
 }
