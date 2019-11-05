@@ -19,17 +19,14 @@ class _LoginScreenState extends State<LoginScreen> {
       body: Scaffold(
           backgroundColor: Color(0xffF2F2F2),
           body: Container(
-            decoration: BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage('image/bg_login.png'), fit: BoxFit.fill)),
+            color: Colors.white,
             child: Column(
               children: <Widget>[
                 SizedBox(height: 56,),
                 Expanded(
                   flex: 5,
                   child: Container(
-                    width: 280,
-                    child: Image.asset('image/logo.png',),
+                    child: Image.asset('image/carro.png',),
                   ),
                 ),
                 Expanded(
